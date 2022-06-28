@@ -6,6 +6,5 @@ pathFinder: pathFinder.cpp
 pathFinder_individ: pathFinder.cpp
 	@echo "Compiling \"pathFinder_indvid\"." && g++ -std=c++14 -O3 -pthread pathFinder_indvid.cpp -o pathFinder_indvid
 
-
 clean:
-	rm -f pathFinder
+	rm -f pathFinder pathFinder_indvid
