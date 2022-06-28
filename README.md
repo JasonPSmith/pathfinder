@@ -19,6 +19,10 @@ Where the inputs are:
 * indptr: Address of numpy file of indptr of csr format of graph, dtype uint32
 * out: Output address will save a file for each thread
 
+
+pathfinder_individ computes all paths from a specified vertex v to all vertices in vertices.npy. It is called in the same way as pathfinder, but with the extra --vertex v.
+
 IMPORTANT! The numpy files must have dtype uint32, if 64bit numpy files are inputted no error is displayed but things will go wrong.
 
 Note graphs vertices are indexed starting at 0.
+
